@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt=BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, scale-initial=1.0">
+    <title>{% block Title %}Base{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<header>
+    <h1>Assistência Técnica</h1>
+    <nav>
+        <ul>
+            <li>Sobre</li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section>
+        {% block content %}
+
+        {% endblock %}
+
+    </section>
+    <br>
+    <section>
+
+    </section>
+</main>
+<footer>
+    <p>&copy; 2024 My Web Page</p>
+</footer>
+<script src="/static/js/script.js"></script>
+</body>
+</html>
