@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 3px;
+    border: 1px solid;
+    font-size: 62.5%;
+}
+body{
+    margin: 2px;
+    border: 1px solid red;
+}
+header{
+    background: green;
+    color: white;
+    font-size: 6.4rem;
+    text-align: center;
+}
+header nav{
+    text-align: left;
+}
+main{
+    font-size: 3.2rem;
+}
